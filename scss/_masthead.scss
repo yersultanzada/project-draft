@@ -18,10 +18,9 @@ section#masthead {
     }
   }
 }
-@media (min-width: 992px) {
-  section#masthead .wt-block-intro {
-    padding-top: 150px;
-    padding-bottom: 170px;
+@media (max-width: 575px) {
+  section#masthead .wt-block-intro .wt-intro-form {
+    padding: 40px 25px 50px;
   }
 }
 @media (max-width: 767px) {
@@ -29,9 +28,10 @@ section#masthead {
     font-size: 40px;
   }
 }
-@media (max-width: 575px) {
-  section#masthead .wt-block-intro .wt-intro-form {
-    padding: 40px 25px 50px;
+@media (min-width: 992px) {
+  section#masthead .wt-block-intro {
+    padding-top: 150px;
+    padding-bottom: 170px;
   }
 }
 
@@ -39,7 +39,7 @@ section#masthead {
 section#masthead1 {
   position: relative;
   .wt-background-headerImg {
-    background: #3c506f;
+    background: $primary;
   }
   .wt-block-intro {
     padding-top: 50px;
@@ -51,10 +51,9 @@ section#masthead1 {
     }
   }
 }
-@media (min-width: 992px) {
-  section#masthead1 .wt-block-intro {
-    padding-top: 150px;
-    padding-bottom: 170px;
+@media (max-width: 575px) {
+  section#masthead1 .wt-block-intro .wt-intro-form {
+    padding: 40px 25px 50px;
   }
 }
 @media (max-width: 767px) {
@@ -62,9 +61,10 @@ section#masthead1 {
     font-size: 40px;
   }
 }
-@media (max-width: 575px) {
-  section#masthead1 .wt-block-intro .wt-intro-form {
-    padding: 40px 25px 50px;
+@media (min-width: 992px) {
+  section#masthead1 .wt-block-intro {
+    padding-top: 150px;
+    padding-bottom: 170px;
   }
 }
 

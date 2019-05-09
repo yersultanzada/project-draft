@@ -22,10 +22,10 @@
           font-size: 100%;
           font-weight: 400;
           padding: 0.75em;
-          color: $primary;
+          color: $gray-900;
           &.active,
           &:hover {
-            color: #a8b7d5;
+            color: lighten($gray-900, 10%);
           }
         }
       }
@@ -42,12 +42,12 @@
   .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: $primary;
+    color: $gray-900;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($gray-900, 10%);
     }
   }
   .burger_menu {
@@ -60,10 +60,10 @@
         font-size: 100%;
         font-weight: 400;
         padding: 0.75em 0;
-        color: $primary;
+        color: $primary-200;
         &.active,
         &:hover {
-          color: #a8b7d5;
+          color: $primary-200;
         }
       }
     }
@@ -112,7 +112,7 @@
       a.menu_logo {
         font-size: 1.5em;
         font-weight: 700;
-        color: #3c506f;
+        color: $gray-900;
       }
       .request_btn {
         position: absolute;
@@ -138,12 +138,12 @@
   .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: $primary;
+    color: $gray-900;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($gray-900, 10%);
     }
   }
   .burger_menu {
@@ -156,10 +156,10 @@
         font-size: 100%;
         font-weight: 400;
         padding: 0.75em 0;
-        color: $primary;
+        color: $gray-900;
         &.active,
         &:hover {
-          color: #a8b7d5;
+          color: lighten($gray-900, 10%);
         }
       }
     }
@@ -208,7 +208,7 @@
       a.menu_logo {
         font-size: 1.5em;
         font-weight: 700;
-        color: #3c506f;
+        color: $gray-900;
       }
       .request_btn {
         position: absolute;
@@ -237,12 +237,12 @@
   .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: $primary;
+    color: $gray-900;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($gray-900, 10%);
     }
   }
   .burger_menu {
@@ -255,10 +255,10 @@
         font-size: 100%;
         font-weight: 400;
         padding: 0.75em 0;
-        color: $primary;
+        color: $gray-900;
         &.active,
         &:hover {
-          color: #a8b7d5;
+          color: $gray-900;
         }
       }
     }
@@ -308,7 +308,7 @@
       a.menu_logo {
         font-size: 1.5em;
         font-weight: 700;
-        color: #3c506f;
+        color: $gray-900;
       }
       .request_btn {
         position: absolute;
@@ -336,12 +336,12 @@
   .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: $primary;
+    color: $gray-900;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($gray-900, 10%);
     }
   }
   .burger_menu {
@@ -354,16 +354,16 @@
         font-size: 100%;
         font-weight: 400;
         padding: 0.75em 0;
-        color: $primary;
+        color: $gray-900;
         &.active,
         &:hover {
-          color: #a8b7d5;
+          color: $gray-900;
         }
       }
     }
   }
   .wt-block-navInfo {
-    color: $primary;
+    color: $gray-900;
     .wt-navInfo-text {
       font-size: 12px;
       line-height: 1.67;
@@ -432,10 +432,10 @@
       a.menu_logo {
         font-size: 1.5em;
         font-weight: 700;
-        color: #3c506f;
+        color: $gray-900;
       }
       .wt-block-navInfo {
-        color: $primary;
+        color: $gray-900;
         .wt-navInfo-text {
           font-size: 12px;
           line-height: 1.67;
@@ -472,12 +472,12 @@
   .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: $primary;
+    color: $gray-900;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($gray-900, 10%);
     }
   }
   .burger_menu {
@@ -490,10 +490,10 @@
         font-size: 100%;
         font-weight: 400;
         padding: 0.75em 0;
-        color: $primary;
+        color: $gray-900;
         &.active,
         &:hover {
-          color: #a8b7d5;
+          color: $gray-900;
         }
       }
     }
@@ -550,10 +550,10 @@
       a.menu_logo {
         font-size: 1.5em;
         font-weight: 700;
-        color: #3c506f;
+        color: $gray-900;
       }
       .wt-block-navInfo {
-        color: $primary;
+        color: $gray-900;
         .wt-navInfo-text {
           font-size: 12px;
           line-height: 1.67;
@@ -601,12 +601,12 @@
   .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: $primary;
+    color: $gray-900;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($gray-900, 10%);
     }
   }
   .burger_menu {
@@ -619,10 +619,10 @@
         font-size: 100%;
         font-weight: 400;
         padding: 0.75em 0;
-        color: $primary;
+        color: $gray-900;
         &.active,
         &:hover {
-          color: #a8b7d5;
+          color: $gray-900;
         }
       }
     }
@@ -672,7 +672,7 @@
       a.menu_logo {
         font-size: 1.5em;
         font-weight: 700;
-        color: #3c506f;
+        color: $gray-900;
       }
       .mainNav5-top {
         background-color: $primary-100;
@@ -680,7 +680,7 @@
           margin-bottom: 10px;
         }
         span {
-          color: $primary;
+          color: $gray-900;
         }
       }
       .request_btn {

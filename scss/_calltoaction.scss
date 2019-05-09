@@ -5,7 +5,7 @@
 
 // Styling for the calltoaction2 section
 #callToAction2 {
-  background-color: $primary;
+  background-color: $primary-200;
 }
 
 // Styling for the calltoaction3 section
@@ -28,7 +28,7 @@
 
 // Styling for the calltoaction4 section
 #callToAction4 {
-  background-color: $primary;
+  background-color: $primary-200;
   .wt-block-formCenter {
     background-color: #fff;
     padding: 40px 40px 50px;
@@ -39,6 +39,12 @@
   }
 }
 
+@media (max-width: 991px) {
+  #callToAction1 form{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 992px) {
   #callToAction3 {
     .wt-block-formLeft {
@@ -51,11 +57,5 @@
   }
   #callToAction4 .wt-block-formCenter {
     padding: 40px 80px 50px;
-  }
-}
-@media (max-width: 991px) {
-  #callToAction1 form{
-    max-width: 500px;
-    margin: 0 auto;
   }
 }

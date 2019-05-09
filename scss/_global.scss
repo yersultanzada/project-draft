@@ -9,14 +9,14 @@ p {
 }
 
 a {
-  color: $primary;
+  color: $gray-900;
   &:hover {
-    color: darken($primary, 10%);
+    color: lighten($gray-900, 10%);
   }
 }
 
 .wt-text-primary {
-  color: $primary !important;
+  color: $primary-200 !important;
 }
 .wt-block-background {
   position: absolute;
@@ -41,14 +41,14 @@ a {
       text-align: center;
       a{
         display: block;
-        background-color: $primary;
+        background-color: $primary-200;
         border-radius: 4px;
         width: 30px;
         height: 30px;
         line-height: 30px;
         color: #fff;
         &:hover {
-          background-color: lighten($primary, 20%);
+          background-color: lighten($primary-200, 10%);
         }
       }
     }
@@ -136,7 +136,7 @@ section {
 // Form Styles
 form.wt-form-rounded {
   .form-group {
-    color: $primary;
+    color: $primary-200;
     .form-control {
       border-radius: 25px;
     }
@@ -165,14 +165,14 @@ form.wt-form-rounded {
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $primary-200;
+  border-color: $primary-200;
   color: white !important;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
+    background-color: darken($primary-200, 7.5%) !important;
+    border-color: darken($primary-200, 7.5%) !important;
     color: white !important;
   }
   &:active,
@@ -183,13 +183,13 @@ form.wt-form-rounded {
 .btn-white {
   background-color: white;
   border-color: white;
-  color: $primary !important;
+  color: $primary-200 !important;
   &:active,
   &:focus,
   &:hover {
     background-color: darken(white, 7.5%) !important;
     border-color: darken(white, 7.5%) !important;
-    color: $primary !important;
+    color: $primary-200 !important;
   }
   &:active,
   &:focus {
@@ -201,15 +201,15 @@ form.wt-form-rounded {
 }
 .wt-btn-rounded-transparent {
   background-color: transparent;
-  border-color: $primary;
-  color: $primary !important;
+  border-color: $primary-200;
+  color: $primary-200 !important;
   border-radius: 25px;
   border-width: 2px;
 }
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: $primary-200;
   text-shadow: none;
 }
 

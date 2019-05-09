@@ -1,6 +1,6 @@
 // Styling for the footer
 section#footer {
-  background-color: $primary;
+  background-color: $primary-200;
   padding-bottom: 30px;
   .wt-section-text {
     color: lighten($primary, 40%);
@@ -10,10 +10,12 @@ section#footer {
     padding: .2rem 1rem;
   }
   .list-inline-item a {
-    background-color: lighten($primary, 8%);
+    background-color: $primary;
+    color: $primary-200
   }
   form .btn-primary {
     background-color: lighten($primary, 8%);
+    color: $primary-200 !important;
   }
   .wt-border-top {
     border-top: 1px solid #fff;
@@ -68,7 +70,7 @@ section#footer2 {
 
 // Styling for the footer 3
 section#footer3 {
-  background-color: $primary;
+  background-color: $primary-200;
   padding-bottom: 30px;
   ul.nav {
     float: right;

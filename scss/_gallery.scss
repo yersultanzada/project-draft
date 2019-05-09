@@ -41,7 +41,7 @@ section#gallery1 {
     min-height: 670px;
     margin-bottom: 30px;
     .wt-background-galleryImg-l {
-      background: $primary-200;
+      background: $primary;
     }
   }
   .wt-block-gallery-rightImg {
@@ -49,10 +49,10 @@ section#gallery1 {
     min-height: 320px;
     margin-bottom: 30px;
     .wt-background-galleryImg-r {
-      background: $primary-200;
+      background: $primary;
     }
     .wt-background-galleryImg-r2 {
-      background: $primary-200;
+      background: $primary;
     }
   }
   .wt-background-galleryOverlay {
@@ -84,7 +84,7 @@ section#gallery3 {
       display: flex;
       align-items: flex-start;
       height: 350px;
-      background-color: $primary-200;
+      background-color: $primary;
       img {
         align-self: center;
         margin: auto;
